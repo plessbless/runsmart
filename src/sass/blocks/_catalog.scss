@@ -142,7 +142,6 @@
             transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
-                margin-right: 20px;
             }
         }
         &__list {
@@ -154,14 +153,17 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
             li {
                 position: relative;
-                margin-bottom: 20px;
+                margin-bottom: 5px;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 21px;

@@ -20,6 +20,12 @@
         img: {
             max-width: 100%;
         }
+        &_animated {
+            animation: heartbeat 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__subtitle {
         margin-top: 30px;
